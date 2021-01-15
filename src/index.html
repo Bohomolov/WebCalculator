@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="box">
+<br>
+    <input id="num1"/>
+</br>
+<br>
+    <input id="num2"/>
+</br>
+
+
+
+<div id="operator_buttons">
+    <button id="minus" class="operator" onclick="operation='-'">-</button>
+    <button id="plus" class="operator" onclick="operation='+'">+</button>
+    <button id="times" class="operator" onclick="operation='*'">*</button>
+    <button id="divide" class="operator" onclick="operation='/'">/</button>
+    <button id="proc" class="operator" onclick="operation='%'">%</button>
+    <button id="equals" onclick="func()">=</button>
+</div>
+
+
+<div class="output">
+    <output id="result">Result:</output>
+</div>
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>
